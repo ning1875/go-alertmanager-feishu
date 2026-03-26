@@ -20,10 +20,16 @@
 - Docker（可选，用于容器化部署）
 
 ### 安装与运行
+#### 方式1：直接运行
 
-#### 方式一：直接运行
+- 部署 [deploy.yaml](./deploy.yaml)
+- webhook地址换成你的
+
+#### 方式2：直接运行
 
 1. 克隆代码：
 ```bash
 git clone https://github.com/yourusername/alertmanager-feishu.git
 cd alertmanager-feishu
+
+
